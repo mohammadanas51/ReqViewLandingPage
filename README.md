@@ -82,11 +82,11 @@ Create a `.env.local` file in the root directory based on `.env.local.example`:
 
 ```dotenv
 # MongoDB Configuration
-MONGODB_USERNAME="mohammadanas51_db_user"
-MONGODB_PASSWORD="IgKmV9eymTxblDCc"
-MONGODB_URI="mongodb+srv://mohammadanas51_db_user:IgKmV9eymTxblDCc@reqview.5p4nj8l.mongodb.net"
-MONGODB_DB_NAME="ReqViewDB"
-MONGODB_COLLECTION_NAME="WaitlistEntries"
+MONGODB_USERNAME=""
+MONGODB_PASSWORD=""
+MONGODB_URI=""
+MONGODB_DB_NAME=""
+MONGODB_COLLECTION_NAME=""
 ```
 
 > **Security Note**: Never expose database credentials to the client. None of these variables use `NEXT_PUBLIC_`, ensuring they are only accessible within Server Components and Next.js Route Handlers.
